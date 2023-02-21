@@ -1,32 +1,17 @@
 {
   "pages": [{
-
-      "style": {
-
-      }
-    }, {
       "path": "pages/home/home",
-      "style": {
-
-      }
+      "style": {}
     }, {
       "path": "pages/cate/cate",
-      "style": {
-
-      }
-
+      "style": {}
     }, {
       "path": "pages/cart/cart",
       "style": {}
-
     }, {
       "path": "pages/my/my",
-      "style": {
-
-      }
-
+      "style": {}
     }
-
   ],
   "globalStyle": {
     "navigationBarTextStyle": "white",
@@ -71,7 +56,6 @@
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false
       }
-
     }, {
       "path": "goods_list/goods_list",
       "style": {
@@ -81,14 +65,12 @@
         "enablePullDownRefresh": true,
         "backgroundColor": "#f8f8f8"
       }
-
     }, {
       "path": "search/search",
       "style": {
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false
       }
-
     }]
   }]
 
