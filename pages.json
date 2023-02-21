@@ -72,25 +72,24 @@
         "enablePullDownRefresh": false
       }
 
-    }    ,{
-                    "path" : "goods_list/goods_list",
-                    "style" :                                                                                    
-                {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
-                }
-                
-                }
-                ,{
-                    "path" : "search/search",
-                    "style" :                                                                                    
-                {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
-                }
-                
-                }
-            ]
+    }, {
+      "path": "goods_list/goods_list",
+      "style": {
+        // 触底距离
+        "onReachBottomDistance": 150,
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#f8f8f8"
+      }
+
+    }, {
+      "path": "search/search",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }]
   }]
 
 

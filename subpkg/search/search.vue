@@ -115,10 +115,11 @@
           url: '/subpkg/goods_list/goods_list?query=' + kw
         })
       },
-      // 3.5在 onLoad 生命周期函数中，加载本地存储的搜索历史记录：
-      onLoad() {
-        this.historyList = JSON.parse(uni.getStorageSync('kw') || '[]')
-      }
+     
+    },
+    // 3.5在 onLoad 生命周期函数中，加载本地存储的搜索历史记录：
+    onLoad() {
+      this.historyList = JSON.parse(uni.getStorageSync('kw') || '[]')
     },
     // 3.3搜索历史 的计算格式
     // 计算属性
